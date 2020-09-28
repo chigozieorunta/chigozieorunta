@@ -2,7 +2,7 @@ import React from "react"
 
 const HeroContainer = props => {
   return (
-    <section class="d-flex vh-100 align-items-center">
+    <section class="d-flex vh-100 align-items-center hero-section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-10 offset-sm-1">
