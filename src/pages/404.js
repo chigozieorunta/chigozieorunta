@@ -9,7 +9,7 @@ const ErrorPage = () => {
   return (
     <Layout>
       <HeroContainer>
-        <HeroTitle>Howdy Stranger!</HeroTitle>
+        <HeroTitle>Gotcha!</HeroTitle>
         <HeroExcerpt>
           You've stumbled <em>far, far away</em> my friend...
         </HeroExcerpt>
