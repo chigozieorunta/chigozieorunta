@@ -11,9 +11,8 @@ const HomePage = () => {
       <HeroContainer>
         <HeroTitle>Chigozie Orunta</HeroTitle>
         <HeroExcerpt>
-          Hi, I'm a <em>full stack developer</em> who works with{" "}
-          <em>React.js/Gatsby</em> on the front-end and <em>PHP/Laravel</em> on
-          the back-end!
+          Hi, I'm a <em>full stack developer</em> who works with <em>React</em>{" "}
+          and <em>PHP/Laravel</em>...
         </HeroExcerpt>
       </HeroContainer>
     </Layout>
