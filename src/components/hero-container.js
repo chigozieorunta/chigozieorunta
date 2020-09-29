@@ -7,7 +7,7 @@ const HeroContainer = props => {
         <div className="row">
           <div className="col-sm-10 offset-sm-1">
             <div className="row">
-              <div className="col-xl-6">{props.children}</div>
+              <div className="col-xl-7">{props.children}</div>
             </div>
           </div>
         </div>
