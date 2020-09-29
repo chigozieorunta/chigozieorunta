@@ -7,7 +7,7 @@ body {
 body {
   color: #cbc4f1;
   background: #251a6a;
-  font: 48px Nunito, Arial !important;
+  font: 16px Nunito, Arial !important;
 }
 
 em {
@@ -31,6 +31,12 @@ h6 {
   font-weight: 800 !important;
 }
 
+.hero-excerpt {
+  font-size: 48px;
+  font-weight: 200 !important;
+  letter-spacing: -0.5px;
+}
+
 .hero-section {
   position: relative;
   overflow: hidden;
@@ -49,4 +55,40 @@ h6 {
   background: url(../images/main1_white.png) no-repeat top right;
   background-size: contain;
   opacity: 0.1;
+}
+
+.header-section {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.header-logo {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.header-navigation {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  list-style: none;
+}
+
+.header-navigation li a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 2rem;
+  text-transform: lowercase;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.header-navigation li a:hover {
+  color: #fff;
 }
