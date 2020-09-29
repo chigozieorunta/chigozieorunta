@@ -10,6 +10,17 @@ body {
   font: 16px Nunito, Arial !important;
 }
 
+a {
+  color: #cbc4f1;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 em {
   color: #ffeb3b;
   font-style: normal;
@@ -37,12 +48,25 @@ h6 {
   letter-spacing: -0.5px;
 }
 
+.hero-button {
+  background: #5d49d3;
+  color: #ffffff;
+  font-weight: 700 !important;
+  padding: 1.5rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.hero-button:hover {
+  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+}
+
 .hero-section {
   position: relative;
   overflow: hidden;
 }
 
-.hero-section:after {
+.hero-section:before {
   display: block;
   content: "";
   position: absolute;
@@ -78,17 +102,10 @@ h6 {
 }
 
 .header-navigation li a {
-  color: rgba(255, 255, 255, 0.7);
   font-size: 24px;
   font-weight: 800;
   display: block;
   margin-bottom: 2rem;
   text-transform: lowercase;
   text-align: center;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-.header-navigation li a:hover {
-  color: #fff;
 }
