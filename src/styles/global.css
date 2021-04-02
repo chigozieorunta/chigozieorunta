@@ -5,9 +5,10 @@ body {
 }
 
 body {
-  color: #cbc4f1;
-  background: #251a6a;
-  font: 16px Poppins, Nunito, Arial !important;
+  color: #fff;
+  background: #111;
+  font: 16px Lexend, Arial !important;
+  background: #111 url(../images/main1_white.png) no-repeat center;
 }
 
 a {
@@ -21,60 +22,45 @@ a:hover {
   text-decoration: none;
 }
 
-em {
-  color: #ffeb3b;
-  font-style: normal;
-  font-weight: 600;
-}
-
-span {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 600;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 200 !important;
-}
-
 /* CUSTOM STYLING */
+
+.hero-icons {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.hero-icons li {
+  list-style: none;
+}
+
+.hero-icons li svg {
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
 
 .hero-title {
   font-size: 84px;
-  font-weight: 800 !important;
+  font-weight: 400 !important;
 }
 
 .hero-excerpt {
-  font-size: 48px;
-  font-weight: 200 !important;
-  letter-spacing: -0.5px;
-}
-
-.hero-button {
-  background: #5d49d3;
-  color: #ffffff;
-  font-weight: 700 !important;
-  padding: 1.5rem;
-  display: inline-block;
-  margin-top: 1.5rem;
-}
-
-.hero-button:hover {
-  box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+  letter-spacing: 10px;
+  margin: 1em 0 2em 0;
 }
 
 .hero-section {
   position: relative;
   overflow: hidden;
+  background: rgba(17, 17, 17, 0.9);
 }
 
 .hero-section:before {
-  display: block;
+  /* display: block;
   content: "";
   position: absolute;
   top: -50%;
@@ -85,46 +71,21 @@ h6 {
   height: 200vh;
   background: url(../images/main1_white.png) no-repeat top right;
   background-size: contain;
-  opacity: 0.1;
+  opacity: 0.1; */
 }
 
-.hero-skills {
-  padding-left: 0;
+@media only screen and (max-width: 768px) {
+  .hero-icons {
+    width: 75%;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
 }
 
-.hero-skills li {
-  font-weight: 500;
-  display: inline-block;
-  margin-right: 1.25rem;
-  color: #ffeb3b;
-  line-height: 2.25;
-}
-
-.header-section {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 2rem;
-  z-index: 1000;
-}
-
-.header-logo {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-.header-navigation {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  list-style: none;
-}
-
-.header-navigation li a {
-  font-size: 24px;
-  font-weight: 400;
-  display: block;
-  margin-bottom: 2rem;
-  text-transform: lowercase;
-  text-align: center;
+@media only screen and (max-width: 480px) {
+  .hero-icons {
+    width: 100%;
+  }
 }
