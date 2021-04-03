@@ -1,4 +1,5 @@
 import React from "react"
+import { Row, Col } from "react-bootstrap"
 import Layout from "../layout/Layout"
 import HeroContainer from "../components/layout/HeroContainer"
 
