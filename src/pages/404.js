@@ -1,19 +1,19 @@
 import React from "react"
-import Layout from "../layout/layout"
-
-import HeroTitle from "../components/hero-title"
-import HeroExcerpt from "../components/hero-excerpt"
+import Layout from "../layout/Layout"
 import HeroContainer from "../components/layout/HeroContainer"
 
 const ErrorPage = () => {
   return (
     <Layout>
       <HeroContainer>
-        {/* 
-        <HeroTitle>Gotcha!</HeroTitle>
-        <HeroExcerpt>
-          You've stumbled <em>far, far away</em> my friend...
-        </HeroExcerpt> */}
+        <Row>
+          <Col sm={{ span: 10, offset: 1 }}>
+            <div className="text-center hero-title">Gotcha!!!</div>
+            <div className="text-center text-uppercase hero-excerpt">
+              Miss Me eh...
+            </div>
+          </Col>
+        </Row>
       </HeroContainer>
     </Layout>
   )
