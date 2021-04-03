@@ -58,11 +58,4 @@ const HomePage = () => {
   )
 }
 
-const styles = {
-  heroIcons: {
-    color: "#FFF",
-    fontSize: "24px",
-  },
-}
-
 export default HomePage
